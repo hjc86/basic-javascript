@@ -3,12 +3,6 @@ console.log('ITEM COUNT')
 let item;
 let count;
 
-// function itemCount(item, count){
-//     if (count > 1){
-//         console.log(`I have ${count} ${item}s`);
-//     } else {`I have ${count} ${item}`}   
-// };
-
 function itemCount(item, count){
     (count > 1) ? console.log(`I have ${count} ${item}s`) :
     console.log(`I have ${count} ${item}`) ;  
